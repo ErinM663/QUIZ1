@@ -2,15 +2,135 @@
   {
     "id" : 1,
    "questionType" : "true_false",
-    "questionText" : "Python is an Interpreted Language",
-    "correctAnswer" : "true",
+    "questionText" : "Java is an Interpreted Language",
+    "correctAnswer" : "false",
     "options" : ["true", "false"]
   },
  {     "id" : 2,   
    "questionType" : "text_input",
-    "questionText" : "What is the value of the expression 1+1",
-    "correctAnswer" : "2",
+    "questionText" : "What is <h1>?",
+    "correctAnswer" : "first heading",
     "answerFieldId" : "answer_to_question"
-  }]
+  },
+   {  
+    "id" : 3,   
+   "questionType" : "text_input",
+    "questionText" : "What transmits between two computers?",
+    "correctAnswer" : "network",
+    "answerFieldId" : "answer_to_question"
+  },
+  {
+    "id" : 4,   
+   "questionType" : "true_false",
+    "questionText" : "Coaxial cables protect from interference",
+    "correctAnswer" : "true",
+    "options" : ["true", "false"]
+  },
+  {
+    "id" : 5,   
+   "questionType": "checkBox",
+      "questionText": "Which are used in HTML?",
+      "correctAnswer": ["<p>","<h2>"],
+    "options" : ["<p>","<h2>","int", "import"]
+  }, {  
+    "id" : 6,   
+   "questionType" : "text_input",
+    "questionText" : "What sends a network request?",
+    "correctAnswer" : "HTTP",
+    "answerFieldId" : "answer_to_question"
+  },
+  {
+    "id" : 7,   
+   "questionType" : "true_false",
+    "questionText" : "There are 7 layers to a network",
+    "correctAnswer" : "true",
+    "options" : ["true", "false"]
+  },
+  {
+    "id" : 8,   
+   "questionType": "checkBox",
+      "questionText": "Which are cyberattacks?",
+      "correctAnswer": ["worm","DNS Overloading"],
+    "options" : ["worm","DNS Overloading","computer homicide", "not buying a computer"]
+  }, {"id" : 9,   
+   "questionType" : "text_input",
+    "questionText" : "What is a list tag?",
+    "correctAnswer" : "<li>",
+    "answerFieldId" : "answer_to_question"
+  },
+  {
+    "id" : 10,   
+   "questionType" : "true_false",
+    "questionText" : "A trojan horse is  cyberattack",
+    "correctAnswer" : "true",
+    "options" : ["true", "false"]
+  },
+  {
+    "id" : 11,   
+   "questionType": "checkBox",
+      "questionText": "Which are functions in html?",
+      "correctAnswer": ["asynch","arrow functions"],
+    "options" : ["asynch","arrow functions","json objects", "arrays"]
+},{"id" : 12,   
+   "questionType" : "text_input",
+    "questionText" : "What does CSS handle?",
+    "correctAnswer" : "the styling of an HTML page",
+    "answerFieldId" : "answer_to_question"
+  },
+  {
+    "id" : 13,   
+   "questionType" : "true_false",
+    "questionText" : "CSS can modify images",
+    "correctAnswer" : "true",
+    "options" : ["true", "false"]
+  },
+  {
+    "id" : 14,   
+   "questionType": "checkBox",
+      "questionText": "Which are specific examples of what CSS handles?",
+      "correctAnswer": ["padding","borders"],
+    "options" : ["padding","borders","json objects", "arrays"]
+  },{"id" : 15,   
+   "questionType" : "text_input",
+    "questionText" : "How do you insert data from another location in HTML?",
+    "correctAnswer" : "send a request of information to the server",
+    "answerFieldId" : "answer_to_question"
+  },
+  {
+    "id" : 16,   
+   "questionType" : "true_false",
+    "questionText" : "Arrays can only be 2d",
+    "correctAnswer" : "false",
+    "options" : ["true", "false"]
+  },
+  {
+    "id" : 17,   
+   "questionType": "checkBox",
+      "questionText": "Which of the following are used in SQL?",
+      "correctAnswer": ["Select","OrderBY"],
+    "options" : ["Select","OrderBY","json objects", "arrays"]
+  },
+  {"id" : 18,   
+   "questionType" : "text_input",
+    "questionText" : "What class do you import in Java to get random numbers?",
+    "correctAnswer" : "java.util.Random",
+    "answerFieldId" : "answer_to_question"
+  },
+  {
+    "id" : 19,   
+   "questionType" : "true_false",
+    "questionText" : "Arrays can hold instatiates of objects",
+    "correctAnswer" : "true",
+    "options" : ["true", "false"]
+  },
+  {
+    "id" : 20,   
+   "questionType": "checkBox",
+      "questionText": "Which of the following are job in the CS field?",
+      "correctAnswer": ["All of the above"],
+    "options" : ["Programmer","software developer","Systems Analyst", "All of the above"]
+  },
+  
+]
   
 }
